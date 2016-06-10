@@ -16,10 +16,10 @@
 
 -(void)addWord:(NSString *)word;
 -(void)addWords:(NSArray *)words withPunctuation:(NSString *)punctuation;
--(void)removewordAtIndex:(NSUInteger )index;
+-(void)removeWordAtIndex:(NSUInteger )index;
 -(void)insertWord:(NSString *)word atIndex:(NSUInteger )index;
 -(void)replacePunctuationWithPunctuation:(NSString *)punctuation;
--(void)replaceWordatIndex:(NSUInteger )index withWord:(NSString *)word;
+-(void)replaceWordAtIndex:(NSUInteger )index withWord:(NSString *)word;
 
 
 
